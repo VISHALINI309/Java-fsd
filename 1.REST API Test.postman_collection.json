@@ -1,0 +1,62 @@
+{
+	"info": {
+		"_postman_id": "c1b6b137-96e6-44da-9cdd-bce532d44385",
+		"name": "1.REST API Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32312389",
+		"_collection_link": "https://universal-desert-255798.postman.co/workspace/API-Automation-Test~3649071f-65f3-4208-8d63-7f98e5aed23c/collection/32312389-c1b6b137-96e6-44da-9cdd-bce532d44385?action=share&source=collection_link&creator=32312389"
+	},
+	"item": [
+		{
+			"name": "Get All users Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://reqres.in/api/users?page=1&size=2",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"users"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "size",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get One user by userid",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://reqres.in/api/users/12",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"users",
+						"12"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
